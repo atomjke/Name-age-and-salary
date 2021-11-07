@@ -22,7 +22,8 @@ public class App {
         System.out.println("How much do you make, " + name + "?");
 
         salary = input.nextDouble();
-        
+        input.close();
+
         System.out.println();
         System.out.println(salary + "! I hope that's per hour and not per year! LOL!");
     }
